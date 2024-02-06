@@ -18,13 +18,12 @@ const MenuSheet = () => {
                 </Button>
             </SheetTrigger>
             <SheetContent className="p-0">
-                <SheetHeader className="text-left border-b border-solid border-primary p-5">
-                <SheetTitle>Menu</SheetTitle>
-                <SheetDescription>
-                    This action cannot be undone. This will pxermanently delete your account
-                    and remove your data from our servers.
-                </SheetDescription>
+                <SheetHeader className="text-left border-b border-solid border-secondary p-5">
+                    <SheetTitle>Menu</SheetTitle>
                 </SheetHeader>
+                <SheetDescription>
+                    
+                </SheetDescription>
             </SheetContent>
         </Sheet>
         );
